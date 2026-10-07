@@ -5,10 +5,12 @@
 list(APPEND FLUTTER_PLUGIN_LIST
   desktop_webview_window
   url_launcher_linux
+  webview_all_linux
   window_to_front
 )
 
 list(APPEND FLUTTER_FFI_PLUGIN_LIST
+  jni
 )
 
 set(PLUGIN_BUNDLED_LIBRARIES)
