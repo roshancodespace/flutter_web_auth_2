@@ -356,8 +356,8 @@ class _AuthWebViewDialog extends StatelessWidget {
 
     return Dialog(
       insetPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 24),
-      clipBehavior: Clip.antiAlias,
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+      clipBehavior: Clip.none,
+      shape: const RoundedRectangleBorder(),
       child: SizedBox(
         width: width,
         height: height,
